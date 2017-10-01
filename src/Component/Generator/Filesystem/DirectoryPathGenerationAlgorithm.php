@@ -28,6 +28,7 @@ final class DirectoryPathGenerationAlgorithm
                 if ($id >= $minStepValue && $id <= $maxStepValue) {
                     $stepPath = sprintf('%s-%s', $minStepValue, $maxStepValue);
                 }
+                ++$currentAttempt;
             }
 
             $path    .= DIRECTORY_SEPARATOR . $stepPath;
