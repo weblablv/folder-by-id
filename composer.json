@@ -1,0 +1,14 @@
+{
+    "name": "weblablv/folder-by-id",
+    "description": "",
+    "type": "library",
+    "license": "",
+    "autoload": {
+        "psr-4": {
+            "WebLabLv\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
