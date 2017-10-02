@@ -37,6 +37,6 @@ final class DirectoryPathGenerationAlgorithm
             --$depth;
         }
 
-        return $path;
+        return $path . DIRECTORY_SEPARATOR . $id;
     }
 }
