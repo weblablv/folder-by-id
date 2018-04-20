@@ -1,8 +1,8 @@
 {
     "name": "weblablv/folder-by-id",
-    "description": "",
+    "description": "Weblab folder path generation by id",
     "type": "library",
-    "license": "",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "WebLabLv\\": "src/"
